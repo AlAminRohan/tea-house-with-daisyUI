@@ -44,8 +44,8 @@
   </head>
   <body class="manrope">
     <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+      <div class="my-20">
+        <div class="flex justify-between items-center flex-col lg:flex-row">
           <div>
             <h1 class="text-5xl lg:text-7xl font-extrabold">
               It's good <br />
@@ -56,10 +56,14 @@
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn btn-primary">Explore More</button>
+            <button
+              class="btn btn-primary bg-gradient-to-r from-[#FF8938] to-[#FF0000] border-0 text-white"
+            >
+              Explore More<i class="fa-solid fa-arrow-trend-up"></i>
+            </button>
           </div>
           <div class="">
-            <img src="images/banner.png" class="max-w-sm" />
+            <img src="images/banner.png" class="" />
             <div
               class="-mt-16 flex items-center gap-3 drop-shadow-lg rounded-xl bg-white w-60 p-5"
             >
@@ -178,34 +182,206 @@
 
       <!-- super client  section -->
       <section
-        class="m-24 gap-12 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-xl flex flex-col lg:flex-row px-16 py-20"
+        class="lg:m-24 gap-12 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-xl flex flex-col lg:flex-row px-16 py-20"
       >
-        <div class="space-y-5">
-          <h2 class="text-5xl font-extrabold text-[#F4F4F4]">
-            Meet Our Super <br />Clients
-          </h2>
-          <p class="text-xs text-[#F4F4F4]">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable.
-          </p>
-          <button class="btn btn-active">Show All</button>
+        <div class="flex lg:pr-28 items-center">
+          <div class="space-y-5">
+            <h2 class="text-5xl font-extrabold text-[#F4F4F4]">
+              Meet Our Super <br />Clients
+            </h2>
+            <p class="text-xs text-[#F4F4F4]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+            <button class="btn btn-active bg-white">Show All</button>
+          </div>
         </div>
-        <div>
-          <!-- review -->
-          <div class=" relative p-10 rounded-lg bg-white">
-            <img class="absolute -left-10 -top-5" src="images/client.png" alt="" />
+        <!-- review container -->
+        <div class="relative">
+          <!-- previous review -->
+          <div class="relative mb-16 z-10 opacity-40 p-10 rounded-lg bg-white">
+            <img
+              class="absolute -left-10 -top-5 border-4 rounded-full bg-white"
+              src="images/client.png"
+              alt=""
+            />
             <p class="text-[#777777] text-xs">
               We are providing the best and suitable home insurance services for
               the people who are interested to treatment
             </p>
             <h3 class="text-xs font-bold text-[#1C1C1C] mt-5">Ilham Yuda</h3>
             <h4 class="text-xs font-medium">Businessman</h4>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="" />
+            </div>
+          </div>
+          <!--current review -->
+          <div
+            class="absolute p-10 z-20 top-40 lg:-left-24 lg:w-[430px] rounded-lg bg-white"
+          >
+            <img
+              class="absolute -left-10 -top-5 border-4 rounded-full bg-white"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="text-[#777777] text-xs">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="text-xs font-bold text-[#1C1C1C] mt-5">Ilham Yuda</h3>
+            <h4 class="text-xs font-medium">Businessman</h4>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="" />
+            </div>
+          </div>
+          <!--next review -->
+          <div class="relative z-10 opacity-40 p-10 rounded-lg bg-white">
+            <img
+              class="absolute -left-10 -top-5 border-4 rounded-full bg-white"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="text-[#777777] text-xs">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="text-xs font-bold text-[#1C1C1C] mt-5">Ilham Yuda</h3>
+            <h4 class="text-xs font-medium">Businessman</h4>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Event section -->
+      <section class="lg:m-24">
+        <h1 class="text-5xl font-extrabold text-center">News & Events</h1>
+        <p class="text-xs text-center lg:w-[900] lg:mt-5">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, <br />
+          by injected humour, or randomised words which don't look even slightly
+          believable.
+        </p>
+        <div class="lg:mt-12 flex flex-col lg:flex-row space-x-6">
+          <!-- first card -->
+          <div class="card bg-base-100 shadow-xl border-2">
+            <figure>
+              <img src="images/news-1.png" alt="" class="pt-4" />
+            </figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title font-extrabold text-xl">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-[#777777]">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h3 class="font-bold">Learn More</h3>
+            </div>
+          </div>
+          <!-- second card -->
+          <div class="card bg-base-100 shadow-xl border-2">
+            <figure>
+              <img src="images/news-2.png" alt="" class="pt-4" />
+            </figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title font-extrabold text-xl">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-[#777777]">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h3 class="font-bold">Learn More</h3>
+            </div>
+          </div>
+          <!-- last card -->
+          <div class="card bg-base-100 shadow-xl border-2">
+            <figure>
+              <img src="images/news-3.png" alt="" class="pt-4" />
+            </figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title font-extrabold text-xl">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-[#777777]">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <h3 class="font-bold">Learn More</h3>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <!-- footer  -->
+    <footer class="px-40 py-10 bg-base-200 text-base-content">
+      <div class="flex justify-between my-24">
+        <img src="images/cup.png" alt="" />
+        <p>
+          <span>Ready to get strated?</span>
+          <button
+            class="btn btn-primary ml-4 bg-gradient-to-r from-[#FF8938] to-[#FF0000] border-0 text-white"
+          >
+            Get strated?
+          </button>
+        </p>
+      </div>
+      <div class="footer">
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <h6 class="footer-title">Newsletter</h6>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="py-4 bg-transparent border-b-2 border-black outline-none mr-5"
+              />
+              <button
+                class="btn btn-primary rounded-full bg-gradient-to-r from-[#FF8938] to-[#FF0000] border-0 text-white"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="text-center mt-10">
+        <aside>
+          <p>
+            Copyright © {new Date().getFullYear()} - All right reserved by ACME
+            Industries Ltd
+          </p>
+        </aside>
+      </div>
+    </footer>
   </body>
 </html>
